@@ -1,0 +1,213 @@
+package me.abir.dailycricketbd.model.single_match_scorecard;
+
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+import java.util.List;
+
+import me.abir.dailycricketbd.model.single_live_match.CurrentPartnership;
+import me.abir.dailycricketbd.model.single_live_match.Equations;
+import me.abir.dailycricketbd.model.single_live_match.ExtraRuns;
+
+public class ScoreCardInnings {
+
+    @SerializedName("iid")
+    @Expose
+    private int iid;
+    @SerializedName("number")
+    @Expose
+    private int number;
+    @SerializedName("name")
+    @Expose
+    private String name;
+    @SerializedName("short_name")
+    @Expose
+    private String shortName;
+    @SerializedName("status")
+    @Expose
+    private int status;
+    @SerializedName("result")
+    @Expose
+    private int result;
+    @SerializedName("batting_team_id")
+    @Expose
+    private int battingTeamId;
+    @SerializedName("fielding_team_id")
+    @Expose
+    private int fieldingTeamId;
+    @SerializedName("scores")
+    @Expose
+    private String scores;
+    @SerializedName("scores_full")
+    @Expose
+    private String scoresFull;
+    @SerializedName("batsmen")
+    @Expose
+    private List<ScoreCardBatsman> batsmen = null;
+    @SerializedName("bowlers")
+    @Expose
+    private List<ScoreCardBowler> bowlers = null;
+    @SerializedName("fows")
+    @Expose
+    private List<ScoreCardFow> fows = null;
+    @SerializedName("did_not_bat")
+    @Expose
+    private List<DidNotBatModel> didNotBatModels = null;
+    @SerializedName("last_wicket")
+    @Expose
+    private transient ScoreCardLastWicket lastWicket;
+    @SerializedName("extra_runs")
+    @Expose
+    private ExtraRuns extraRuns;
+    @SerializedName("equations")
+    @Expose
+    private Equations equations;
+    @SerializedName("current_partnership")
+    @Expose
+    private CurrentPartnership currentPartnership;
+
+    public int getIid() {
+        return iid;
+    }
+
+    public void setIid(int iid) {
+        this.iid = iid;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getShortName() {
+        return shortName;
+    }
+
+    public void setShortName(String shortName) {
+        this.shortName = shortName;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    public int getResult() {
+        return result;
+    }
+
+    public void setResult(int result) {
+        this.result = result;
+    }
+
+    public int getBattingTeamId() {
+        return battingTeamId;
+    }
+
+    public void setBattingTeamId(int battingTeamId) {
+        this.battingTeamId = battingTeamId;
+    }
+
+    public int getFieldingTeamId() {
+        return fieldingTeamId;
+    }
+
+    public void setFieldingTeamId(int fieldingTeamId) {
+        this.fieldingTeamId = fieldingTeamId;
+    }
+
+    public String getScores() {
+        return scores;
+    }
+
+    public void setScores(String scores) {
+        this.scores = scores;
+    }
+
+    public String getScoresFull() {
+        return scoresFull;
+    }
+
+    public void setScoresFull(String scoresFull) {
+        this.scoresFull = scoresFull;
+    }
+
+    public List<ScoreCardBatsman> getBatsmen() {
+        return batsmen;
+    }
+
+    public void setBatsmen(List<ScoreCardBatsman> batsmen) {
+        this.batsmen = batsmen;
+    }
+
+    public List<ScoreCardBowler> getBowlers() {
+        return bowlers;
+    }
+
+    public void setBowlers(List<ScoreCardBowler> bowlers) {
+        this.bowlers = bowlers;
+    }
+
+    public List<ScoreCardFow> getFows() {
+        return fows;
+    }
+
+    public void setFows(List<ScoreCardFow> fows) {
+        this.fows = fows;
+    }
+
+    public ScoreCardLastWicket getLastWicket() {
+        return lastWicket;
+    }
+
+    public void setLastWicket(ScoreCardLastWicket lastWicket) {
+        this.lastWicket = lastWicket;
+    }
+
+    public ExtraRuns getExtraRuns() {
+        return extraRuns;
+    }
+
+    public void setExtraRuns(ExtraRuns extraRuns) {
+        this.extraRuns = extraRuns;
+    }
+
+    public Equations getEquations() {
+        return equations;
+    }
+
+    public void setEquations(Equations equations) {
+        this.equations = equations;
+    }
+
+    public CurrentPartnership getCurrentPartnership() {
+        return currentPartnership;
+    }
+
+    public void setCurrentPartnership(CurrentPartnership currentPartnership) {
+        this.currentPartnership = currentPartnership;
+    }
+
+    public List<DidNotBatModel> getDidNotBatModels() {
+        return didNotBatModels;
+    }
+
+    public void setDidNotBatModels(List<DidNotBatModel> didNotBatModels) {
+        this.didNotBatModels = didNotBatModels;
+    }
+}

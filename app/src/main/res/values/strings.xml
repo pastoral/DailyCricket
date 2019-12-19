@@ -1,0 +1,81 @@
+<resources>
+    <!--Not Translatable-->
+    <string name="app_name" translatable="false">DailyCricketBd</string>
+    <string name="my_mixed_text" translatable="false"><b>Oct 28, 2017</b> Bangladesh fast bowlers struggled, managing only five wickets over 108overs in the first text. Only one of his way to try and break the circle.  kshdkajsdh ajkhdkjdh ajkdh ajksdh ajhdkajdhkajdh ajkshdkjh a lkasjdhajdh ahdakjdh lajsdh ajdhkashdjashd jhaskdjh aksdjhaksjdh jhasdkhasdkhasdjhasjdh</string>
+    <string name="news_title" translatable="false">Mustafiz stands out amid Bangladesh pace woes</string>
+    <string name="dummy_date" translatable="false">Oct 27, 2017</string>
+    <string name="poll_question" translatable="false">Who do you think should open for Bangladesh in test cricket?</string>
+    <string name="poll_option" translatable="false">Tamim Iqbal and Soumya Sarkar</string>
+    <string name="about_us_address" translatable="false">Shams Bhaban \n17 Siddheshwari Lane \nDhaka–1217 \nBangladesh \nT: +880–2–8313706 \nF: +880–2–8314983 \n\nwww.onedigitalbd.com</string>
+    <string name="tournament_title" translatable="false">Bangladesh Premiere League 2017</string>
+    <string name="tr_date_and_match_no" translatable="false">November 24, 2017 | 4th Match</string>
+    <string name="team_a" translatable="false">Melbourne Renegades women</string>
+    <string name="team_b" translatable="false">Hobart Hurricanes Women</string>
+    <string name="team_a_score" translatable="false">191/10 (49.5 ov) &amp; 484/8d (108.3 ov)</string>
+    <string name="team_b_score" translatable="false">185/9 (19.5 ov)</string>
+    <string name="match_result" translatable="false">Rangpur Riders Won By 1 Wicket</string>
+    <string name="match_status_live" translatable="false">LIVE</string>
+    <string name="match_status_complted" translatable="false">COMPLETED</string>
+    <string name="text_match_scheduled_to_begin" translatable="false">Match scheduled to begin at</string>
+    <string name="text_player_of_the_match" translatable="false">Player Of The Match</string>
+    <!--Not Translatable-->
+
+    <string name="title_matches">Match</string>
+    <string name="title_news">News</string>
+    <string name="title_extras">Extra</string>
+
+
+    <string name="tab_live">Live</string>
+    <string name="tab_results">Result</string>
+    <string name="tab_fixtures">Fixture</string>
+    <string name="tab_scorecard">Scorecard</string>
+    <string name="tab_stats">Stats</string>
+
+    <string name="tab_news">News</string>
+    <string name="tab_images">Images</string>
+    <string name="tab_videos">Videos</string>
+
+    <string name="button_submit">SUBMIT</string>
+    <string name="something_went_wrong">Sorry! Something went wrong.</string>
+
+    <string name="extras_polls">Polls</string>
+    <string name="extras_contact_us">Contact Us</string>
+    <string name="extras_about_us">About Us</string>
+    <string name="extras_notification">Notification</string>
+    <string name="extras_facebook">Facebook</string>
+    <string name="extras_twitter">Twitter</string>
+    <string name="extras_rate_us">Rate Us</string>
+
+    <string name="settings_reminder">Match Reminder</string>
+    <string name="settings_over_end">Over End</string>
+    <string name="settings_wicket">Wicket</string>
+    <string name="settings_six">Six</string>
+    <string name="settings_fours">Fours</string>
+    <string name="settings_wide_balls">Wide Ball</string>
+    <string name="settings_no_ball">No Ball</string>
+    <string name="settings_match_end">Match End</string>
+
+    <string name="contact_email_hint">Your Email</string>
+    <string name="contact_message_hint">Your Message</string>
+
+    <string name="msg_feedback">Thank you for your feedback!</string>
+    <string name="msg_incomplete_data">Please complete the above form to continue</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="versus">VS</string>
+    <string name="text_international">INTERNATIONAL</string>
+    <string name="text_domestic">DOMESTIC</string>
+    <string name="for_your_daily_dose_of_cricket">FOR YOUR DAILY DOSE OF CRICKET</string>
+    <string name="there_is_no_live_match_at_this_moment">There is no live match at this moment</string>
+    <string name="text_language">Language</string>
+
+    <string name="dialog_language_title">Preferred Language</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_english">English</string>
+    <string name="text_bangla">Bangla</string>
+
+    <!--new string not translated yet-->
+
+
+</resources>

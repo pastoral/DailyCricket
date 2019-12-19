@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#495247</color>
+    <color name="colorAccent">#FF5722</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="green_russian">#678D58</color>
+
+    <color name="colorPrimaryGreen">#006342</color>
+
+    <color name="gray">#BEBEBE</color>
+    <color name="gray_dark">#818285</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="light_gray_2">#F7F7F7</color>
+    <color name="grey_text_tab">#a2aca5</color>
+    <color name="grey_opacity_80">#CCA2ACA5</color>
+
+    <color name="aqua">#B1D8C4</color>
+    <color name="light_blue">#22A7D3</color>
+    <color name="yellow_variant_1">#EAD404</color>
+
+    <color name="red">#F44336</color>
+
+    <color name="tag_four">#AD6426</color>
+    <color name="tag_six">#4CAF50</color>
+    <color name="tag_wicket">#F44336</color>
+
+    <color name="match_time_bg">#e7f5e4</color>
+</resources>

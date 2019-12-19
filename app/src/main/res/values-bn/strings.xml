@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_matches">ম্যাচ</string>
+    <string name="title_news">সংবাদ</string>
+    <string name="title_extras">অতিরিক্ত</string>
+
+    <string name="tab_live">লাইভ</string>
+    <string name="tab_results">ফলাফল</string>
+    <string name="tab_fixtures">ফিক্সচার</string>
+    <string name="tab_scorecard">স্কোরকার্ড</string>
+    <string name="tab_stats">পরিসংখ্যান</string>
+
+    <string name="tab_news">সংবাদ</string>
+    <string name="tab_images">চিত্র</string>
+    <string name="tab_videos">ভিডিও</string>
+
+    <string name="button_submit">সাবমিট</string>
+    <string name="something_went_wrong">দুঃখিত! কিছু ভুল হয়েছে</string>
+
+    <string name="extras_polls">পোল</string>
+    <string name="extras_contact_us">যোগাযোগ</string>
+    <string name="extras_about_us">আমাদের সম্পর্কে</string>
+    <string name="extras_notification">নোটিফিকেশন</string>
+    <string name="extras_facebook">ফেসবুক</string>
+    <string name="extras_twitter">টুইটার</string>
+    <string name="extras_rate_us">রেটিং দিন</string>
+
+    <string name="settings_reminder">Match Reminder</string>
+    <string name="settings_over_end">Over End</string>
+    <string name="settings_wicket">Wicket</string>
+    <string name="settings_six">Six</string>
+    <string name="settings_fours">Fours</string>
+    <string name="settings_wide_balls">Wide Ball</string>
+    <string name="settings_no_ball">No Ball</string>
+    <string name="settings_match_end">Match End</string>
+
+    <string name="contact_email_hint">Your Email</string>
+    <string name="contact_message_hint">Your Message</string>
+
+    <string name="msg_feedback">Thank you for your feedback!</string>
+    <string name="msg_incomplete_data">Please complete the above form to continue</string>
+    <string name="title_activity_settings">সেটিংস</string>
+    <string name="coming_soon">শীঘ্রই আসছে</string>
+    <string name="versus">বনাম</string>
+    <string name="text_international">আন্তর্জাতিক</string>
+    <string name="text_domestic">ডোমেস্টিক</string>
+    <string name="for_your_daily_dose_of_cricket">আপনার দৈনন্দিন ক্রিকেট</string>
+    <string name="there_is_no_live_match_at_this_moment">এই মুহূর্তে কোন লাইভ ম্যাচ সম্প্রচার হচ্ছে না</string>
+    <string name="text_language">ভাষা</string>
+
+    <string name="dialog_language_title">পছন্দের ভাষা</string>
+    <string name="text_yes">হ্যা</string>
+    <string name="text_cancel">বাতিল</string>
+    <string name="text_english">ইংরেজি</string>
+    <string name="text_bangla">বাংলা</string>
+</resources>

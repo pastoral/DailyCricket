@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="settings_reminder"
+        android:title="@string/settings_reminder" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="settings_over_end"
+        android:title="@string/settings_over_end" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="settings_wicket"
+        android:title="@string/settings_wicket" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="settings_six"
+        android:title="@string/settings_six" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="settings_fours"
+        android:title="@string/settings_fours" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="settings_wide_balls"
+        android:title="@string/settings_wide_balls" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="settings_no_ball"
+        android:title="@string/settings_no_ball" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="settings_match_end"
+        android:title="@string/settings_match_end" />
+</PreferenceScreen>

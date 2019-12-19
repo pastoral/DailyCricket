@@ -1,0 +1,218 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="me.abir.dailycricketbd.view.fragment.ExtrasFragment">
+
+    <TextView
+        android:id="@+id/tvRateUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/extras_rate_us"
+        android:textSize="@dimen/extra_fragment_text_size"
+        app:layout_constraintStart_toEndOf="@+id/ivRateUs"
+        app:layout_constraintTop_toTopOf="@+id/ivRateUs" />
+
+    <ImageView
+        android:id="@+id/ivRateUs"
+        android:layout_width="@dimen/extra_fragment_icon_size"
+        android:layout_height="@dimen/extra_fragment_icon_size"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/extras_rate_us"
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/ivAboutUs" />
+
+    <TextView
+        android:id="@+id/tvAboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/extras_about_us"
+        android:textSize="@dimen/extra_fragment_text_size"
+        app:layout_constraintStart_toEndOf="@+id/ivAboutUs"
+        app:layout_constraintTop_toTopOf="@+id/ivAboutUs" />
+
+    <ImageView
+        android:id="@+id/ivAboutUs"
+        android:layout_width="@dimen/extra_fragment_icon_size"
+        android:layout_height="@dimen/extra_fragment_icon_size"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/extras_about_us"
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/ivTwitter" />
+
+    <TextView
+        android:id="@+id/tvTwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/extras_twitter"
+        android:textSize="@dimen/extra_fragment_text_size"
+        app:layout_constraintStart_toEndOf="@+id/ivTwitter"
+        app:layout_constraintTop_toTopOf="@+id/ivTwitter" />
+
+    <ImageView
+        android:id="@+id/ivTwitter"
+        android:layout_width="@dimen/extra_fragment_icon_size"
+        android:layout_height="@dimen/extra_fragment_icon_size"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/extras_twitter"
+        app:layout_constraintStart_toEndOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/ivFacebook" />
+
+    <TextView
+        android:id="@+id/tvFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/extras_facebook"
+        android:textSize="@dimen/extra_fragment_text_size"
+        app:layout_constraintStart_toEndOf="@+id/ivFacebook"
+        app:layout_constraintTop_toTopOf="@+id/ivFacebook" />
+
+    <ImageView
+        android:id="@+id/ivFacebook"
+        android:layout_width="@dimen/extra_fragment_icon_size"
+        android:layout_height="@dimen/extra_fragment_icon_size"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/extras_facebook"
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/ivQuiz" />
+
+    <TextView
+        android:id="@+id/tvPoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/extras_polls"
+        android:textSize="@dimen/extra_fragment_text_size"
+        app:layout_constraintStart_toEndOf="@+id/ivPoll"
+        app:layout_constraintTop_toTopOf="@+id/ivPoll" />
+
+    <ImageView
+        android:id="@+id/ivPoll"
+        android:layout_width="@dimen/extra_fragment_icon_size"
+        android:layout_height="@dimen/extra_fragment_icon_size"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/extras_poll"
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/ivNotification" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/myAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:elevation="8dp"
+        android:focusableInTouchMode="true"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_bar_tab_layout_height"
+            android:background="@drawable/tab_background_gradient"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/for_your_daily_dose_of_cricket"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/ivNotification"
+        android:layout_width="@dimen/extra_fragment_icon_size"
+        android:layout_height="@dimen/extra_fragment_icon_size"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/extras_notification"
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/myAppBar" />
+
+    <TextView
+        android:id="@+id/tvNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/extras_notification"
+        android:textSize="@dimen/extra_fragment_text_size"
+        app:layout_constraintStart_toEndOf="@+id/ivNotification"
+        app:layout_constraintTop_toTopOf="@+id/ivNotification" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <TextView
+        android:id="@+id/tvQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Quiz"
+        android:visibility="gone"
+        android:textSize="@dimen/extra_fragment_text_size"
+        app:layout_constraintStart_toEndOf="@+id/ivQuiz"
+        app:layout_constraintTop_toTopOf="@+id/ivQuiz" />
+
+    <ImageView
+        android:id="@+id/ivQuiz"
+        android:visibility="gone"
+        android:layout_width="@dimen/extra_fragment_icon_size"
+        android:layout_height="@dimen/extra_fragment_icon_size"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/extras_quiz"
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/ivPoll" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ad_banner_id"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/ivLanguage"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/ic_language"
+        app:layout_constraintStart_toEndOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/ivRateUs" />
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/text_language"
+        app:layout_constraintStart_toEndOf="@+id/ivLanguage"
+        app:layout_constraintTop_toTopOf="@+id/ivLanguage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
