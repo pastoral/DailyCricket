@@ -22,6 +22,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 
+import java.util.Locale;
+
 import me.abir.dailycricketbd.BaseActivity;
 import me.abir.dailycricketbd.R;
 import me.abir.dailycricketbd.busmodel.ScrollEventBus;
@@ -52,6 +54,8 @@ public class BottomNavActivity extends BaseActivity {
         setFragment(new MatchesFragment());
         selectedTab = 0;
         registerEventBus();
+        String CurrentLang = Locale.getDefault().getLanguage();
+
     }
 
 
@@ -83,7 +87,14 @@ public class BottomNavActivity extends BaseActivity {
         navigation = findViewById(R.id.bottom_nav);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         // Top Menu Icon
+
         ImageView ivExtraMenu = findViewById(R.id.ivExtraMenu);
+        if(Locale.getDefault().getLanguage()=="bn"){
+            ivExtraMenu.setImageResource(R.drawable.btn_lang_en);
+        }
+        else{
+            ivExtraMenu.setImageResource(R.drawable.btn_lang_bn);
+        }
         ivExtraMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
